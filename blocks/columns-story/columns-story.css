@@ -6,7 +6,8 @@
 
 .columns-story > div {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
   gap: 48px;
   padding: 48px 0;
   border-bottom: 1px solid #e5e5e5;
@@ -57,12 +58,13 @@
   object-fit: cover;
 }
 
-@media (width >= 900px) {
+@media (width <= 600px) {
   .columns-story > div {
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
   }
+}
 
+@media (width >= 900px) {
   .columns-story h2 {
     font-size: 40px;
   }

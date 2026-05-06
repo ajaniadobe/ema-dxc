@@ -1,6 +1,8 @@
 .cards-news-banner {
   background-color: var(--dxc-warm-cream);
-  padding: 12px 24px;
+  padding: 16px 24px;
+  border-top: 1px solid #e8e4e0;
+  border-bottom: 1px solid #e8e4e0;
 }
 
 .cards-news-banner > div {

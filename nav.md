@@ -1,0 +1,43 @@
+- [DXC Technology](/)
+
+---
+
+- **Industries**
+  - [Aerospace and Defense](/industries/aerospace-and-defense)
+  - [Automotive](/industries/automotive)
+  - [Consumer and Retail](/industries/consumer-goods-retail)
+  - [Energy](/industries/energy)
+  - [Financial Services](/industries/financial-services)
+  - [Healthcare and Life Sciences](/industries/healthcare-life-sciences)
+  - [Insurance](/industries/insurance)
+  - [Manufacturing](/industries/manufacturing)
+  - [Public Sector](/industries/public-sector)
+  - [Telecommunications](/industries/telecommunications-media-technology)
+  - [Travel and Transportation](/industries/travel-transportation-hospitality)
+- **Platforms**
+  - [DXC Assure](/platforms/dxc-assure)
+  - [DXC OASIS](/platforms/dxc-oasis)
+  - [DXC ServiceNow](/platforms/dxc-servicenow)
+  - [DXC SAP](/platforms/dxc-sap)
+  - [DXC Security](/platforms/dxc-security)
+- **Solutions**
+  - [Analytics and Engineering](/solutions/analytics-and-engineering)
+  - [Applications](/solutions/applications)
+  - [Artificial Intelligence](/solutions/ai)
+  - [Cloud and Infrastructure](/solutions/cloud-and-infrastructure)
+  - [Consulting](/solutions/consulting)
+  - [Security](/solutions/security)
+- **Insights**
+  - [Customer Stories](/insights/customer-stories)
+  - [Knowledge Base](/insights/knowledge-base)
+  - [Newsroom](/newsroom)
+- **Meet DXC**
+  - [About Us](/about-us)
+  - [Leadership](/about-us/leadership)
+  - [Partners](/about-us/partners)
+  - [Corporate Responsibility](/about-us/corporate-responsibility)
+
+---
+
+- [Careers](https://careers.dxc.com/)
+- [Contact Us](/contact-us)

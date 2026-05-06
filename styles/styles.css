@@ -407,7 +407,10 @@ svg {
   }
 }
 
-main > div,
+main > div {
+  display: block;
+}
+
 .has-template,
 div[data-status] {
   display: none;

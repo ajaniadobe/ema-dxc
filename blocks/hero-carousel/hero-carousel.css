@@ -20,12 +20,25 @@
   align-items: center;
 }
 
+.hero-carousel > div:first-child p {
+  margin: 0;
+}
+
 .hero-carousel > div:first-child picture {
+  display: block;
   width: 280px;
   height: 180px;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 8px 32px rgb(0 0 0 / 15%);
+}
+
+.hero-carousel > div:first-child picture:not(:last-child) {
+  display: none;
+}
+
+.hero-carousel > div:first-child p:not(:last-child) {
+  display: none;
 }
 
 .hero-carousel > div:first-child img {
