@@ -1,0 +1,39 @@
+{
+  "variantName": "hero-carousel",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-05-06T15:12:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://dxc.com/",
+    "originPage": "corporate homepage",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "product-hero",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "heading + tag + description + CTA + carousel images",
+    "buttonCount": 1,
+    "imageCount": 3
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "homepage hero sections with rotating content",
+      "product landing pages with multiple featured items",
+      "campaign pages with carousel imagery"
+    ],
+    "notSuitableFor": [
+      "simple text-only hero sections",
+      "blog post headers",
+      "pages with static single images"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-06T15:12:00.000Z"
+  }
+}

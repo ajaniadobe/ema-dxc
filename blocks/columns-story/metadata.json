@@ -1,0 +1,39 @@
+{
+  "variantName": "columns-story",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-05-06T15:12:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://dxc.com/",
+    "originPage": "corporate homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "value-proposition",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "large headline + description paragraph | image + story links",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "value proposition sections",
+      "company story/about sections",
+      "text-heavy content with supporting imagery"
+    ],
+    "notSuitableFor": [
+      "statistics or data-focused sections",
+      "compact multi-column layouts",
+      "image galleries"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-06T15:12:00.000Z"
+  }
+}

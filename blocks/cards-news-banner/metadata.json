@@ -1,0 +1,39 @@
+{
+  "variantName": "cards-news-banner",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-05-06T15:12:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://dxc.com/",
+    "originPage": "corporate homepage",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "news-ticker",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "label + headline + CTA link",
+    "buttonCount": 1,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "news ticker or announcement banners",
+      "single-line promotional content",
+      "breaking news highlights"
+    ],
+    "notSuitableFor": [
+      "multi-card grid layouts",
+      "content with images",
+      "detailed article listings"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-06T15:12:00.000Z"
+  }
+}
