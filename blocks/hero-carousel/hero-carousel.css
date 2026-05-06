@@ -5,43 +5,95 @@
 
 .hero-carousel {
   position: relative;
-  padding: 40px 24px;
-  min-height: 300px;
+  padding: 60px 24px;
+  min-height: 500px;
+  background: linear-gradient(297deg, #f6f3f0 7%, #549cff 19%, #ff7e51 36%, #ffc982 63%);
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
-.hero-carousel h1,
-.hero-carousel h2,
-.hero-carousel h3,
-.hero-carousel h4,
-.hero-carousel h5,
-.hero-carousel h6,
-.hero-carousel p {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  color: var(--background-color);
+.hero-carousel > div:first-child {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
 }
 
-.hero-carousel.no-image * {
-  color: var(--text-color);
+.hero-carousel > div:first-child picture {
+  width: 280px;
+  height: 180px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgb(0 0 0 / 15%);
 }
 
-.hero-carousel picture {
-  position: absolute;
-  z-index: -1;
-  inset: 0;
-  object-fit: cover;
-  box-sizing: border-box;
-}
-
-.hero-carousel img {
-  object-fit: cover;
+.hero-carousel > div:first-child img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
+}
+
+.hero-carousel > div:last-child {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.hero-carousel h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--dxc-text-heading);
+  margin: 0 0 16px;
+  letter-spacing: 1.2px;
+}
+
+.hero-carousel p {
+  color: var(--dxc-text-primary);
+  font-size: 16px;
+  margin: 0 0 12px;
+}
+
+.hero-carousel a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 16px;
+  border: 1px solid var(--dxc-text-secondary);
+  border-radius: 1000px;
+  color: var(--dxc-blue);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  transition: border-color 0.2s ease;
+}
+
+.hero-carousel a:hover {
+  border-color: var(--dxc-blue);
 }
 
 @media (width >= 900px) {
   .hero-carousel {
-    padding: 40px 32px;
+    padding: 80px 48px;
+    min-height: 600px;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .hero-carousel > div:first-child {
+    flex: 1;
+  }
+
+  .hero-carousel > div:first-child picture {
+    width: 320px;
+    height: 220px;
+  }
+
+  .hero-carousel > div:last-child {
+    flex: 1;
+  }
+
+  .hero-carousel h1 {
+    font-size: 48px;
   }
 }
