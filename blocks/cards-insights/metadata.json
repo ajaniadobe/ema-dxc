@@ -1,0 +1,39 @@
+{
+  "variantName": "cards-insights",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-05-06T15:12:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://dxc.com/",
+    "originPage": "corporate homepage",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "wide",
+    "purpose": "article-grid",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "heading + grid of image cards with headlines and CTAs",
+    "buttonCount": 3,
+    "imageCount": 3
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "article/insight listing sections",
+      "blog post grids",
+      "featured content showcases with images"
+    ],
+    "notSuitableFor": [
+      "compact news tickers",
+      "text-only card lists",
+      "single-item highlights"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-06T15:12:00.000Z"
+  }
+}

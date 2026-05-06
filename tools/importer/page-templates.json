@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "projectType": "doc"
+  },
+  "templates": [
+    {
+      "name": "homepage",
+      "urls": [
+        "https://dxc.com/"
+      ],
+      "description": "DXC Technology corporate homepage with hero, services overview, and company highlights",
+      "blocks": [
+        {
+          "name": "hero-carousel",
+          "instances": [
+            ".herocarouselv3"
+          ]
+        },
+        {
+          "name": "cards-news-banner",
+          "instances": [
+            ".newsbannerv3"
+          ]
+        },
+        {
+          "name": "columns-story",
+          "instances": [
+            ".storycardv3"
+          ]
+        },
+        {
+          "name": "columns-stats",
+          "instances": [
+            ".v25-statistics"
+          ]
+        },
+        {
+          "name": "form",
+          "instances": [
+            ".v25-optin"
+          ]
+        },
+        {
+          "name": "cards-insights",
+          "instances": [
+            ".v25-promocards"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1-hero",
+          "name": "Hero Carousel",
+          "selector": ".herocarouselv3",
+          "style": "dark",
+          "blocks": [
+            "hero-carousel"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2-news-banner",
+          "name": "News Banner",
+          "selector": ".newsbannerv3",
+          "style": null,
+          "blocks": [
+            "cards-news-banner"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-3-story",
+          "name": "Story Card",
+          "selector": ".storycardv3",
+          "style": null,
+          "blocks": [
+            "columns-story"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-4-statistics",
+          "name": "Statistics",
+          "selector": ".v25-statistics",
+          "style": "dark",
+          "blocks": [
+            "columns-stats"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-5-optin",
+          "name": "Newsletter Opt-in",
+          "selector": ".v25-optin",
+          "style": null,
+          "blocks": [
+            "form"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-6-promo-cards",
+          "name": "Latest Insights",
+          "selector": ".v25-promocards",
+          "style": null,
+          "blocks": [
+            "cards-insights"
+          ],
+          "defaultContent": []
+        }
+      ]
+    }
+  ]
+}

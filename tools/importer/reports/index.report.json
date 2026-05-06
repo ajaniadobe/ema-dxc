@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://dxc.com/",
+  "path": "index",
+  "timestamp": "2026-05-06T15:27:29.393Z",
+  "title": "DXC Technology | Impossible Delivered | Enterprise Technology & Innovation Solutions",
+  "template": "homepage",
+  "blocks": [
+    "hero-carousel",
+    "cards-news-banner",
+    "columns-story",
+    "columns-stats",
+    "form",
+    "cards-insights"
+  ]
+}
