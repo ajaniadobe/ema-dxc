@@ -246,9 +246,19 @@ var CustomImportScript = (() => {
         ".cmp-experiencefragment--footer",
         "#skip-to-content",
         "header#site-header",
+        ".contact-cta-section",
+        "#sfFloatBtn",
+        "#formModal",
+        ".modal-25",
+        ".modal",
+        ".mktoForm",
         "iframe",
         "link",
-        "noscript"
+        "noscript",
+        'img[src*="cdn.bizible"]',
+        'img[src*="cdn.bizibly"]',
+        'img[src*="clarity.ms"]',
+        'img[src*="google.com/pagead"]'
       ]);
     }
   }

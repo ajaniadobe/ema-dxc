@@ -159,24 +159,38 @@
   --color-dark-base: 0 0 0;
   --color-light: rgb(255 255 255);
   --color-dark: rgb(0 0 0);
-  --color-text: light-dark(var(--color-dark), var(--color-light));
-  --color-link: light-dark(var(--color-gray-900), var(--color-gray-100));
-  --color-brand: var(--color-purple-500);
-  --color-accent: light-dark(var(--color-magenta-600), var(--color-magenta-500));
-  --color-background: light-dark(var(--color-light), var(--color-dark));
-  --color-shaded: light-dark(#f9f9f9, #111);
+  --color-text: var(--dxc-text-primary);
+  --color-link: var(--dxc-blue);
+  --color-brand: var(--dxc-blue);
+  --color-accent: var(--dxc-coral);
+  --color-background: var(--color-light);
+  --color-shaded: var(--dxc-warm-cream);
 
   /* fonts */
-  --font-family: montserrat, "Trebuchet MS", sans-serif;
+  --font-family: "Inter", sans-serif;
+  --heading-font-family: "GT Standard", sans-serif;
+
+  /* DXC colors */
+  --dxc-navy: #0e1020;
+  --dxc-blue: #004aac;
+  --dxc-blue-hover: #2f6fd5;
+  --dxc-coral: #ff7e51;
+  --dxc-peach: #ffb87e;
+  --dxc-warm-cream: #f6f3f0;
+  --dxc-cool-blue-bg: #f5f8fc;
+  --dxc-text-primary: #1d2833;
+  --dxc-text-heading: #0e1020;
+  --dxc-text-secondary: #4b4d5d;
+  --dxc-text-muted: #9a9aa4;
 
   /* headings */
-  --heading-font-size-xxl: 32.44px;
-  --heading-font-size-xl: 28.83px;
-  --heading-font-size-l: 25.63px;
-  --heading-font-size-m: 22.78px;
-  --heading-font-size-s: 20.25px;
-  --heading-font-size-xs: 18px;
-  --heading-line-height: 1.15;
+  --heading-font-size-xxl: 40px;
+  --heading-font-size-xl: 32px;
+  --heading-font-size-l: 26px;
+  --heading-font-size-m: 22px;
+  --heading-font-size-s: 18px;
+  --heading-font-size-xs: 16px;
+  --heading-line-height: 1.2;
 
   /* body */
   --body-font-size-xxxl: 25px;
@@ -209,13 +223,12 @@ body {
   margin: 0;
   background-color: var(--color-background);
   color: var(--color-text);
-  font-family: "Trebuchet MS", sans-serif;
+  font-family: var(--font-family);
   font-size: var(--body-font-size-m);
   line-height: var(--body-line-height);
   padding: var(--header-height) 0 0;
 
   &.session {
-    /* only allow font loading if a session */
     font-family: var(--font-family);
   }
 
@@ -331,8 +344,27 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: var(--heading-font-family);
   font-weight: 600;
   line-height: var(--heading-line-height);
+  color: var(--dxc-text-heading);
+}
+
+/* section styles */
+main > .section.dark {
+  background-color: var(--dxc-navy);
+  color: var(--color-light);
+}
+
+main > .section.dark h1,
+main > .section.dark h2,
+main > .section.dark h3,
+main > .section.dark p {
+  color: var(--color-light);
+}
+
+main > .section.dark a {
+  color: var(--color-light);
 }
 
 h1 { font-size: var(--heading-font-size-xxl); }
@@ -375,7 +407,10 @@ svg {
   }
 }
 
-main > div,
+main > div {
+  display: block;
+}
+
 .has-template,
 div[data-status] {
   display: none;

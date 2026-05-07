@@ -16,16 +16,24 @@ export default function transform(hookName, element, payload) {
   }
 
   if (hookName === H.after) {
-    // Header experience fragment with navigation
-    // Found in DOM: <div class="cmp-experiencefragment cmp-experiencefragment--header">
     WebImporter.DOMUtils.remove(element, [
       '.cmp-experiencefragment--header',
       '.cmp-experiencefragment--footer',
       '#skip-to-content',
       'header#site-header',
+      '.contact-cta-section',
+      '#sfFloatBtn',
+      '#formModal',
+      '.modal-25',
+      '.modal',
+      '.mktoForm',
       'iframe',
       'link',
       'noscript',
+      'img[src*="cdn.bizible"]',
+      'img[src*="cdn.bizibly"]',
+      'img[src*="clarity.ms"]',
+      'img[src*="google.com/pagead"]',
     ]);
   }
 }
